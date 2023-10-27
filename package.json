@@ -1,0 +1,21 @@
+{
+	"name": "playwright-api-mocha-automation",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"gen-html-report": "npx playwright show-report",
+		"show-html-report": "npx playwright test --reporter=html && sudo npx playwright show-report",
+		"ui-mode": "npx playwright test --ui",
+		"gen-allure-report": "sudo allure generate -o allure-report --clean && sudo allure open allure-report",
+		"show-allure-report": "sudo npx playwright test --reporter=line,allure-playwright && sudo npm run gen-allure-report"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@playwright/test": "^1.39.0",
+		"@types/node": "^20.8.9",
+		"allure-playwright": "^2.9.2"
+	}
+}
