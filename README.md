@@ -1,4 +1,4 @@
-# Test automation using Playwright + Cucumber s 
+# Test automation using Playwright + API automation + mocha framework + Allure Report  
 
 # Prerequisites
 
@@ -52,5 +52,7 @@ NodeJS: https://nodejs.org/en/download
   https://api.zippopotam.us
  
  # Screenshots
-[![HTML report](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Cloud-Dashboard-Report.png)]
-[![Allure report](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Cloud-Dashboard-Report.png)]
+[![HTML report](https://github.com/alagamai/Playwright-API-Automation-Mocha-Allure-Report/blob/master/images/html-report.png)]
+[![Allure report](https://github.com/alagamai/Playwright-API-Automation-Mocha-Allure-Report/blob/master/images/report1.png)]
+[![Allure show all report](https://github.com/alagamai/Playwright-API-Automation-Mocha-Allure-Report/blob/master/images/report2.png)]
+
